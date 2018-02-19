@@ -1,0 +1,62 @@
+/*Written by Lee Jones on February 20, 2018*/
+ @import url('https://fonts.googleapis.com/css?family=Mukta+Mahee');
+
+body {
+  background-color: rgb(169, 204, 227);
+  color: #117864;
+  font-family: 'Mukta Mahee', sans-serif;
+  margin: 10px 20px 10px 20px;
+}
+h1 {
+  color: #1f618d;
+  text-align: center;
+}
+nav {
+  background-color: rgba(108, 52, 131, 0.5);
+  border: 5px solid rgba(108, 52, 131, 0.5);
+  border-radius: 10px;
+  margin: 10px 20px 10px 20px;
+  padding: 20px 40px 20px 40px;
+  text-align: center;
+  width: 90%;
+}
+nav a {
+  background-color: rgb(232, 218, 239);
+  border: 5px solid rgb(232, 218, 239);
+  border-radius: 10px;
+  color: rgb(165, 105, 189);
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px 20px 10px 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color:  #f4ecf7;
+  box-shadow: 1px 2px 1px gray;
+}
+nav ul {
+  display: inline-block;
+  list-style-type: none;
+}
+nav ul li {
+  float: left;
+}
+section {
+  border: 10px solid rgb(232, 218, 239);
+  border-radius: 5px;
+  margin: 20px 30px 20px 30px;
+  padding: 10px 20px 10px 20px;
+}
+/*
+nav#aboutme {
+  background-color:rgb(195, 155, 211);
+  border: 5px solid rgb(195, 155, 211);
+  border-radius: 10px;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 30px 40px 30px 40px;
+  padding: 10px;
+  width: 75%;
+}
+*/
